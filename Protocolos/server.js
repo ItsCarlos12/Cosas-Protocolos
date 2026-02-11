@@ -206,6 +206,6 @@ const server = net.createServer((socket) => {
   });
 });
 
-server.listen(4000, '127.0.0.1', () => {
+server.listen(4000, '172.20.10.2', () => {
   console.log('Servidor escuchando en el puerto 4000');
 });
