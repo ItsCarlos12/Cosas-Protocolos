@@ -5,7 +5,7 @@ const Port = 4000;
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 
-const client = net.createConnection({ port: Port, host: '127.0.0.1' }, () => {
+const client = net.createConnection({ port: Port, host: '172.20.10.2' }, () => {
   console.log('Conectado al servidor en el puerto', Port, '....');
 });
 
