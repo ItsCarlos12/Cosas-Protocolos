@@ -1,0 +1,3 @@
+timestamp,clientId,topic,payload
+2026-03-11T00:57:04.663Z,"mqttjs_91a8388a","hola","hola que tal?"
+2026-03-11T01:00:33.938Z,"mqttjs_e70a8de3","test","testing"
